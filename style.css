@@ -1,0 +1,339 @@
+/* Additional styles can be added here or in an external style sheet */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #3ae90e;
+}
+
+/* Header styles */
+.header {
+  background-image: url('Images/header-background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.header h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.nav-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links ul li {
+  margin-right: 20px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.nav-links ul li a:hover {
+  color: #ffc107;
+}
+
+.text-box {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Course section styles */
+.course {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.course h1 {
+  margin-bottom: 40px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.course-col {
+  flex: 1;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.course-col h3 {
+  margin-bottom: 10px;
+}
+
+/* Campus section styles */
+.campus {
+  background-color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.campus h1 {
+  margin-bottom: 40px;
+}
+
+.campus-col {
+  flex: 1;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.campus-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Facilities section styles */
+.facilities {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.facilities h1 {
+  margin-bottom: 40px;
+}
+
+.facilities-col {
+  flex: 1;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.facilities-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Testimonials section styles */
+.testimonials {
+  background-color: #f2f2f2;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.testimonials h1 {
+  margin-bottom: 40px;
+}
+
+.testimonials-col {
+  flex: 1;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+}
+
+.testimonials-col img {
+  height: 150px;
+  width: 230px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50px;
+ 
+}
+
+.testimonials-col p {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.testimonials-col h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.testimonials-col .fa-star {
+  color: #ffc107;
+}
+
+.testimonials-col .fa-star-o {
+  color: #d42626;
+}
+.checked {
+  color: orange;
+}
+@media(max-width: 700px){
+      .testimonials-col img{
+        margin-left: 0px;
+        margin-right: 15px;
+      }
+}
+.cta{
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/65.avif);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+.cta h1{
+  color: #f0efeb;
+  margin-bottom: 40px;
+  padding: 0%;
+}
+@media(max-width: 700px){
+  .cta h1{
+    font-size: 24px;
+  }
+}
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer h4{
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.icons .fa{
+  color: #f44336;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+.fa-heart-o{
+  color: #f44336;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/* Basic Reset */
+body, h1, h2, h3, p, ul, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+/* Header styles */
+.header {
+  background-image: url('Images/header-background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.header h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links ul li {
+  margin-right: 20px;
+}
+
+.nav-links ul li a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.nav-links ul li a:hover {
+  color: #ffc107;
+}
+
+/* Section General Styles */
+.section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.icons {
+  margin: 20px 0;
+}
+
+.icons span {
+  padding: 0 10px;
+}
+
+p.footer-text {
+  font-size: 0.8em;
+  color: #ccc;
+}
